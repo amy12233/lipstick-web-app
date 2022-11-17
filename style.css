@@ -2,8 +2,12 @@ h3
 {
     font-size: 25px !important;
 }
-btn-success:hover
+.golden-btn:hover
 {
+ padding:20px;
+ border-radius: 20%;
+ font-size: 20px;
+ color:black;
     background-color: rgba(255, 0, 0, 0.09);
 }
 canvas {
@@ -16,7 +20,7 @@ canvas {
     from {box-shadow: 1px 1px 38px rgba(255, 0, 162, 0.423);}
     to{box-shadow: 1px 1px 38px #ffc2cc;}
 }
-
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: #ffc2cc;
+.golden-btn
+{
+    background-color: goldenrod
 }
